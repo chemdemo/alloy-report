@@ -35,6 +35,10 @@
 
 地址：http://cgi.pub.qq.com/report/proxy/
 
+后端架构：
+
+![Node.js Architecture](https://raw.github.com/chemdemo/alloy-report/master/Node.js Architecture.png)
+
 
 **GET请求**
 
@@ -96,7 +100,7 @@ url只带`w`参数，同GET
 - cgi出错：`{"rc":-1}`
 
 
-## reportSDK使用指南
+## 前端reportSDK使用指南
 
 
 #### 全局命名空间
