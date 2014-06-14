@@ -1,0 +1,13 @@
+{
+  "name": "im_nodejs_base",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "log4js": "0.6.9",
+    "attrapi": "0.1.0"
+  },
+  "devDependencies": {}
+}
