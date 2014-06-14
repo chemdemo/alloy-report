@@ -38,10 +38,30 @@
 
 **GET请求**
 
-| 参数名 | 是否必须 | 取值 | 说明 | 示例 |
-|:-:|---|
-| w | 否 | [1,0] | 是否等待所有url都转发完成才返回，1表示等待，默认是0 | ?w=1 |
-| u | 是 | /[tdw,rvm,wspeed,bnl,isd,badjs]?[args] | 所要上报的url | ?u=/tdw?foo=bar/badjs?bar=biz |
+<table>
+    <thead>
+        <tr>
+            <th>参数名</th>
+            <th>是否必须</th>
+            <th>取值</th>
+            <th>说明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>w</td>
+            <td>否</td>
+            <td>是否等待所有url都转发完成才返回，1表示等待，默认是0</td>
+            <td>?w=1</td>
+        </tr>
+        <tr>
+            <td>u</td>
+            <td>是</td>
+            <td>所要上报的url</td>
+            <td>?u=/tdw?foo=bar/badjs?bar=biz</td>
+        </tr>
+    </tbody>
+</table>
 
 注：
 
