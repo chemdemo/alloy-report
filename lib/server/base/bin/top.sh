@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PIDS=$(ps -ef | grep im_nodejs_base | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ',' | sed 's/,$/\n/')
+PIDS=$(ps -ef | grep nodejs_base | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ',' | sed 's/,$/\n/')
 
 if [ "$PIDS" ]
 then

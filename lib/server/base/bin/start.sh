@@ -3,7 +3,7 @@
 CUR_DIR=$(cd $(dirname $0); pwd)
 
 echo "begin exec start"
-PIDS=$(ps -ef | grep node | grep im_nodejs_base/master | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ' ')
+PIDS=$(ps -ef | grep node | grep nodejs_base/master | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ' ')
 
 if [ "$PIDS" ]
 then
@@ -21,7 +21,7 @@ else
 	node ${CUR_DIR}/index.js "production" "nohub_start" &
 fi
 
-PIDS=$(ps -ef | grep node | grep im_nodejs_base | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ' ')
+PIDS=$(ps -ef | grep node | grep nodejs_base | gawk '$0 !~/grep/ {print $2}' | tr -s '\n' ' ')
 echo "pids:$PIDS"
 
 echo start ok

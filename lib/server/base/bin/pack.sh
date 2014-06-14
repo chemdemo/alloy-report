@@ -28,6 +28,6 @@ chmod +x bin/node-*/node
 # tar -C ./conf/ -czvf conf.tar.gz ./
 # tar -C ./lib/ -czvf lib.tar.gz ./
 # tar -C ./lib/ -czvf lib.tar.gz ./
-tar -C ./ -czvf im_nodejs_base.tar.gz ./
+tar -C ./ -czvf nodejs_base.tar.gz ./
 
 echo 'package done!'
